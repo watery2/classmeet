@@ -181,7 +181,7 @@ def go(link, ju, gm, ps):
         "profile.default_content_setting_values.geolocation": 1,
         "profile.default_content_setting_values.notifications": 1
     })
-    path = r"C:\Users\otoma\Desktop\python project\chromedriver\chromedriver.exe"
+    path = r"C:\Users\guy\Desktop\python project\chromedriver\chromedriver.exe"
     browser = webdriver.Chrome(options=opt, executable_path=path)
     browser.get("https://gmail.com")
     time.sleep(22)
